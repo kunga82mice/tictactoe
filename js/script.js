@@ -1,8 +1,16 @@
 
+let player1;
+ player1 = "X";
 
+ let player2;
+ player2 = "O" ;
 
+let gameEnded;
+gameEnded = false;
 
-
+function performLogic(buttonid, tileid) {
+     $(buttonid).hide();
+}
 
 
 $("#button1").click(function() {
